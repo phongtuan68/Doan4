@@ -1,0 +1,48 @@
+/* Ensure the container is a flexbox for better layout */
+.table_medicine_center_right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .medicine_right_item {
+    max-width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .medicine_right_item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .item_title {
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .medicine_item_title {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .medicine_right_item button {
+    display: block;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .medicine_right_item button:hover {
+    background-color: #555;
+  }
+  

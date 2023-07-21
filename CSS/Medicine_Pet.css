@@ -1,0 +1,125 @@
+.table_medicine {
+    position: relative;
+    width: 100%;
+    height: 1005px;
+    background-color: #fff;
+    color: black;
+}
+.table_medicine_center   {
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.table_medicine_center_left {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.table_medicine_search_pet {
+    position: relative;
+    width: 100%;
+    height: 100%;   
+}
+.table_medicine_search_pet span {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.dropinput {
+    position: relative;
+    width:200px;
+    color: white;
+    padding: 8px 20px;
+    font-size: 13px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dropinput:focus {
+    outline: none !important;
+    border:2px solid rgb(107, 185, 236);
+    box-shadow: 0 0 2px #719ECE inset;
+}
+
+.Box_Search_Medicine {
+    position: relative;
+    display: inline-block;
+}
+
+.List_Medicine {
+    display: none;
+    position: absolute;
+    background-color: #ffff;
+    min-width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.List_Medicine a {
+    color: #573f1e;
+    padding: 5px 0px 5px 20px;
+    width: 100%;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+}
+
+.Box_Search_Medicine a:hover {background-color: #deebff;}
+
+.show {display: block;}
+
+
+.table_medicine_center_right    {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 30% 30% 30%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.medicine_right_item {
+    position: relative;
+    width:98%;
+    height: 98%;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    background-color: #fff;
+    border: 1px solid gray;
+    box-shadow: none;
+}
+.medicine_right_item_img {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+}
+.medicine_right_item_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+}   
+.medicine_item_title {
+    font-size: 16px;
+    font-weight: 500;
+}
+.medicine_item_address {
+    font-size: 13px;
+}

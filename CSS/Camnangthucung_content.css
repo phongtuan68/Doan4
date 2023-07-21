@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+    font-family: Roboto;
+}
+
+    h1 {
+      color: #333;
+      
+    }
+
+    .pet-care-tips {
+      margin-top: 20px;
+    }
+
+    .pet-care-tips h2 {
+      color: #666;
+    }
+
+    .pet-care{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+
+    .pet-care-tips ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .pet-care-tips li {
+      margin-bottom: 10px;
+    }
+
+    .pet-care-image {
+      width: 300px;
+      margin-top: 20px;
+    }

@@ -1,0 +1,130 @@
+
+* {
+    font-family: Roboto ;
+}
+.login_box {
+    background-image: url(../IMG/background_end.jpg);
+    position: relative;
+    width: 100%;
+    height: 630px;
+    object-fit: cover;
+    
+}
+.form_login {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    top: 50%;
+    left: 70%;
+    transform: translate(-70% , -50%);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.logo_login {
+    position: relative;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    margin-top: -30px;
+}
+.logo_login img {
+    /* filter: hue-rotate(10%); */
+    object-fit: cover;
+}
+.form_tk_mk {
+    position: relative;
+    width:  100%;
+    height: 150px;
+    margin-top: 50px;
+
+}
+.form_tk_mk input {
+    position: relative;
+    width: 90%;
+    height: 25%;
+    margin-top: 20px;
+    border: 2px solid rgb(190, 187, 187);
+    border-radius: 5px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.button_login {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+#login_box {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-left: 50%;
+    transform: translate(-50%);
+    background-color: rgb(246,177,26);
+    font-size: 15px;
+    font-weight: 400;
+}
+.box_forget_password {
+    position: relative;
+    width:100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box_forget_password span {
+    font-size: 15px;
+    font-weight: 400;
+}
+.box_or {
+    position: relative;
+    width:100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box_or span {
+    font-size: 15px;
+    font-weight: 400;
+    color: #AAAAAA;
+}
+.box_fb_google {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box_login_facebook {
+    position: relative;
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #2374e1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box_login_facebook span {
+    font-size: 15px;
+    font-weight: 400;
+}
+.box_login_google {
+    position: relative;
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #EE0000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+.box_login_google span {
+    font-size: 15px;
+    font-weight: 400;
+}

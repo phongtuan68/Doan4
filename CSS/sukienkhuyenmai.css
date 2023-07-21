@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  scroll-behavior: smooth;
+  background-color: #ffffff;
+  font-family: Roboto;
+}
+
+.promotion {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+  }
+  
+  .promotion-header {
+    text-align: center;
+    padding: 5%;
+    padding-top: 0;
+  }
+  
+  .promotion-header h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .promotion-header p {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .all_promotion{
+    padding: 0 20% 0;
+  }
+
+  .promotion-details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .promotion-details img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .promotion-text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .promotion-text p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .promotion-text a {
+    display: inline-block;
+    padding: 5px 20px;
+    margin-top: 5px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .promotion-text a:hover {
+    background-color: #333;
+  }
+  

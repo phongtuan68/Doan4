@@ -62,7 +62,7 @@ body {
     color: #666666;
   }
   
-  .product a, .service a {
+  .product button, .service button {
     display: inline-block;
     padding: 5px 20px;
     margin-top: 5px;

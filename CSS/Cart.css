@@ -2,72 +2,46 @@
     padding: 0;
     margin: 0;
 }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-}
-header {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-.main-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-.news-item {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.2s ease;
-}
-.news-item:hover {
-    transform: translateY(-5px);
-}
-.news-item img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 5px 5px 0 0;
-}
-.news-content {
-    padding: 15px;
-}
-.news-title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-}
-.news-excerpt {
-    color: #777;
-    line-height: 1.6;
-}
-.sidebar {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-}
-.sidebar-item {
-    margin-bottom: 20px;
-}
-.sidebar-item img {
-    width: 100%;
-    border-radius: 5px;
-}
-footer {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .cart {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .cart th, .cart td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .cart th {
+            background-color: #f2f2f2;
+        }
+        .cart tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .cart tr:hover {
+            background-color: #ddd;
+        }
+        .total {
+            text-align: right;
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .checkout-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
